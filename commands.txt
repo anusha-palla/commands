@@ -5,6 +5,13 @@ select ascii('t');
 |        116 |
 +------------+
 1 row in set (0.00 sec)
+select char(97);
++--------------------+
+| char(97)           |
++--------------------+
+| 0x61               |
++--------------------+
+1 row in set (0.00 sec)
 select bit_length('hello');
 +---------------------+
 | bit_length('hello') |
